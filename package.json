@@ -1,0 +1,18 @@
+{
+  "name": "github-actions-slack-jest-notify",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx @vercel/ncc build index.js --license licenses.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "TRACK RECORDS, Inc.",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.4.0",
+    "@actions/github": "^5.0.0",
+    "@slack/web-api": "^6.3.0"
+  }
+}
